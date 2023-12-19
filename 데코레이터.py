@@ -5,7 +5,6 @@ def outer(func):
         print("-"*20)
     return wrapper()
 
-
 @outer
 def inner():
     print("결과를 출력합니다.")
