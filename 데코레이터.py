@@ -7,7 +7,7 @@ def outer(func):
 
 @outer
 def inner():
-    print("결과를 출력합니다.")
+    print("결과를 출력.")
 
 
 inner()
